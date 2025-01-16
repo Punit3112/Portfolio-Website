@@ -1,0 +1,85 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6ch;
+}
+.typewriter {
+    color: var(--fg-secondary);
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+.profile h1 {
+    margin-bottom: 0.5ch;
+}
+.headshot {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid var(--fg-primary);
+}
+
+.contacts {
+    width: 90%;
+    margin: 2ch auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1ch;
+}
+.contacts a {
+    width: 15%;
+}
+.contacts img {
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+} 
+.contacts a:nth-child(3) img {
+    padding: 6px;
+}
+.contacts a:nth-child(4) img {
+    width: 110% !important; 
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1ch;
+}
+
+/* Adjust profile thumbnail */
+@media only screen and (max-width: 520px) {
+    .profile {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1ch;
+    }
+}
+
+/* Adjust padding on profile */
+@media only screen and (max-width: calc(600px + 4ch)) {
+    .profile {
+        padding: 0 2ch;
+    }
+}
+
+/* Adjust spacing between social links */
+@media only screen and (max-width: 600px) {
+    .contacts {
+        gap: 1ch;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .contacts {
+        width: 100%;
+        gap: 0;
+    }
+}

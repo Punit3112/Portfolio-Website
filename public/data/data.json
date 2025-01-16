@@ -1,0 +1,269 @@
+{
+	"content": {
+		"portfolio": {
+			"skills": [
+				{
+					"name": "Python",
+					"tags": ["Languages"]
+				},
+				{
+					"name": "C++",
+					"tags": ["Languages"]
+				},
+				{
+					"name": "HTML",
+					"tags": ["Languages"]
+				},
+				{
+					"name": "CSS",
+					"tags": ["Languages"]
+				},
+				{
+					"name": "Javascript",
+					"tags": ["Languages"]
+				},
+				{
+					"name": "React",
+					"tags": ["Libraries"]
+				},
+				{
+					"name": "Framer Motion",
+					"tags": ["Libraries"]
+				},
+				{
+					"name": "Tailwind",
+					"tags": ["Libraries"]
+				},
+				{
+					"name": "Prisma",
+					"tags": ["Libraries", "Databases"]
+				},
+				{
+					"name": "Node.js",
+					"tags": ["Frameworks"]
+				},
+				{
+					"name": "PostgreSQL",
+					"tags": ["Databases"]
+				},
+				{
+					"name": "Next.js",
+					"tags": ["Frameworks"]
+				},
+				{
+					"name": "Github",
+					"tags": ["Dev Tools"]
+				},
+				{
+					"name": "Typescript",
+					"tags": ["Languages"]
+				},
+				{
+					"name": "Git",
+					"tags": ["Dev Tools"]
+				},
+				{
+					"name": "Firebase",
+					"tags": ["Dev Tools", "Databases"]
+				},
+				{
+					"name": "Vercel",
+					"tags": ["Dev Tools"]
+				}
+			],
+			"projects": {
+				"MechForum": {
+					"topics": [
+						"Next.js",
+						"PostgreSQL",
+						"Prisma",
+						"AWS",
+						"Chakra UI",
+						"Tailwind",
+						"React",
+						"Vercel"
+					],
+					"topic_thumbnails": [
+						"Next.js",
+						"PostgreSQL",
+						"Prisma",
+						"AWS",
+						"Chakra UI",
+						"Tailwind"
+					],
+					"description": "A web application that allows users to document & share their custom mechanical keyboard builds",
+					"long_description": "A web application that allows users to document & share their custom mechanical keyboard builds",
+					"date_created": "May 2024",
+					"thumbnails": [
+						"https://github.com/user-attachments/assets/89c65618-e369-4b02-91d2-763c11d4b3cd",
+						"https://github.com/user-attachments/assets/8e8200b4-5cf7-4464-8c35-a30cdb974f6e",
+						"https://github.com/user-attachments/assets/6f23bf96-38e8-4d05-8977-7dd0e63f97c9"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/Custom-Keyboard-Builder",
+						"Website": "https://mechforum.vercel.app/"
+					}
+				},
+				"Medihub": {
+					"topics": ["Java", "Android Studio", "Firebase"],
+					"topic_thumbnails": ["Java", "Android Studio", "Firebase"],
+					"description": "A mobile Healthcare Appointment Management System which manages appointments between doctors and patients",
+					"long_description": "Medihub is a mobile Healthcare Appointment Management System which manages appointments between doctors and patients. Users can request to create a Patient or Doctor account and can access various app features upon account approval by an Admin. App features include: viewing appointments (both patients and doctors), accepting or declining user registration requests (admin), and managing work shifts and appointments (doctors).",
+					"date_created": "October 2023",
+					"thumbnails": [
+						"https://github.com/uOttawaSEGA2023/Medihub/assets/75919484/7c6ff21c-36b9-4037-b0a8-d494e3c53c0c",
+						"https://github.com/uOttawaSEGA2023/Medihub/assets/75919484/27981071-efdf-4328-bf34-97109435b8c1",
+						"https://github.com/uOttawaSEGA2023/Medihub/assets/75919484/1f19e4eb-147d-4458-a568-a3e0e8360fe5",
+						"https://github.com/uOttawaSEGA2023/Medihub/assets/75919484/2464e7d1-9037-40a2-a7f0-9f665480d77a",
+						"https://github.com/uOttawaSEGA2023/Medihub/assets/75919484/59901b8d-b60a-431d-9725-7cbe5bac757f"
+					],
+					"links": {
+						"Github": "https://github.com/uOttawaSEGA2023/Medihub"
+					}
+				},
+				"Expense_Tracker": {
+					"topics": ["HTML", "CSS", "Javascript", "React", "Node.js"],
+					"topic_thumbnails": ["HTML", "CSS", "Javascript", "React", "Node.js"],
+					"description": "An Expense Tracker Web App built with the React Javascript Library",
+					"long_description": "An Expense Tracker Web App built with the React Javascript Library. Expense Tracker allows users to track their expenses using CRUD (Create, Read, Update, Delete) functions. User expense data is stored using Javascript local storage.",
+					"date_created": "November 2022",
+					"thumbnails": [
+						"https://user-images.githubusercontent.com/75919484/216506537-6acf4fef-3789-42ff-a40a-99b24844949d.png",
+						"https://user-images.githubusercontent.com/75919484/220453686-610d407a-e0ce-4129-a09b-f2be4617c708.png"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/Expense-Tracker",
+						"Website": "https://columbium41-expense-tracker.netlify.app/"
+					}
+				},
+				"Maze_Solver": {
+					"topics": ["HTML", "CSS", "Javascript"],
+					"topic_thumbnails": ["HTML", "CSS", "Javascript"],
+					"description": "A web application that lets users create, generate, and solve mazes.",
+					"long_description": "A web application that lets users create, generate, and solve mazes with various Graph Theory algorithms. The web app utilizes HTML Canvas to display graphics and vanilla Javascript to handle user interface and visualization.",
+					"date_created": "November 2022",
+					"thumbnails": [
+						"https://user-images.githubusercontent.com/75919484/210094884-8bf8b19f-9673-44f7-b23a-6d7a619b009b.png",
+						"https://user-images.githubusercontent.com/75919484/210094888-275172f2-104f-4397-9b3d-ee2e613e12a8.png"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/Maze-Solver",
+						"Website": "https://columbium41.github.io/Maze-Solver/"
+					}
+				},
+				"File_Share": {
+					"topics": ["HTML", "CSS", "Javascript", "React", "Hackathon"],
+					"topic_thumbnails": ["HTML", "CSS", "Javascript", "React"],
+					"description": "A web application that lets users share files with generated links.",
+					"long_description": "Created a web application during a 36-hour hackathon that lets users share files with generated links. Files are shared using WebRTC Peer-to-Peer (P2P) connections.",
+					"date_created": "March 2023",
+					"thumbnails": [
+						"https://user-images.githubusercontent.com/75919484/223243911-096227e2-f112-4e79-8502-ab3064606152.jpg",
+						"https://user-images.githubusercontent.com/75919484/223244222-68c20a24-0a27-4716-92f5-c990e3a04407.jpg"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/HackTheHill",
+						"Website": "https://hth-fileshare.netlify.app/"
+					}
+				},
+				"Symphony_Bot": {
+					"topics": ["Javascript", "Node.js", "Discord API"],
+					"topic_thumbnails": ["Javascript", "Node.js"],
+					"description": "A simple discord music bot written in Javascript using the Node.js framework",
+					"long_description": "A simple discord music bot written in Javascript with the Node.js framework. The discord bot can play music and manage a queue of songs in a Discord voice channel.",
+					"date_created": "November 2021",
+					"thumbnails": [
+						"https://user-images.githubusercontent.com/75919484/220444988-69384c11-b7ca-4458-ac48-ab5374e99a4a.png"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/Symphony-Bot",
+						"Invite_Link": "https://discord.com/api/oauth2/authorize?client_id=908930909355511888&permissions=277062143040&scope=bot%20applications.commands"
+					}
+				},
+				"Tic-Tac-Toe": {
+					"topics": ["HTML", "CSS", "Javascript"],
+					"topic_thumbnails": ["HTML", "CSS", "Javascript"],
+					"description": "A website that allows users to play TicTacToe against a CPU opponent",
+					"long_description": "A website that allows users to play TicTacToe against a CPU opponent. There are 4 CPU difficulties included: Easy, Medium, Hard, and Impossible. The impossible CPU mode utilizes the Minimax Algorithm.",
+					"date_created": "November 2022",
+					"thumbnails": [
+						"https://user-images.githubusercontent.com/75919484/202865064-ef22c7cd-c973-49c1-aefc-92bd823c7b8a.png",
+						"https://user-images.githubusercontent.com/75919484/202865159-a5c0663b-aeea-4ed5-b75b-730697408457.png"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/TicTacToe-JS",
+						"Website": "https://columbium41.github.io/TicTacToe-JS/"
+					}
+				},
+				"Minesweeper": {
+					"topics": ["Java", "AWT", "Swing"],
+					"topic_thumbnails": ["Java"],
+					"description": "A simple minesweeper game written with Java using swing and AWT.",
+					"long_description": "A simple minesweeper game written with Java using swing and AWT. The minesweeper application allows users to play a game of minesweeper in preset difficulties or create their own custom difficulty with set dimensions and number of mines.",
+					"date_created": "January 2021",
+					"thumbnails": [
+						"https://user-images.githubusercontent.com/75919484/220455167-95a54e0b-6bf7-4150-af28-b9a937b7a230.png",
+						"https://user-images.githubusercontent.com/75919484/220242010-8b2f7ee3-747e-4f7f-9dbe-a59fd216316c.png"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/Minesweeper",
+						"Download_JAR": "https://github.com/Columbium41/Minesweeper/releases/tag/v1.1"
+					}
+				},
+				"Penguins_Infopage": {
+					"topics": ["HTML", "CSS"],
+					"topic_thumbnails": ["HTML", "CSS"],
+					"description": "A one-page informational website about penguins",
+					"long_description": "A simple one-page informational website about penguins.",
+					"date_created": "October 2022",
+					"thumbnails": [
+						"https://user-images.githubusercontent.com/75919484/221424496-3fa92334-0e3a-4b00-a00b-b706f76f7a61.png"
+					],
+					"links": {
+						"Github": "https://github.com/Columbium41/Penguins-Info-Page/",
+						"Website": "https://columbium41.github.io/Penguins-Info-Page/"
+					}
+				}
+			},
+			"work": [
+				{
+					"role": "Member of Technical Staff",
+					"employer": "GeeksforGeeks",
+					"dates": [
+						{
+							"start_date": "May 2024",
+							"end_date": "Current",
+							"full_time": true
+						}
+					],
+					"uses": [
+						"Next.js",
+						"React",
+						"Javascript",
+						"Tailwind",
+						"Typescript",
+						"Node.js"
+					]
+				},
+				{
+					"role": "Member of Technical Staff - Intern",
+					"employer": "GeeksforGeeks",
+					"dates": [
+						{
+							"start_date": "April 2022",
+							"end_date": "November 2022",
+							"full_time": false
+						}
+					],
+					"uses": ["HTML", "CSS", "Javascript", "Git", "Github", "React"]
+				}
+			]
+		},
+		"typewriter_options": [
+			"Front-end Developer",
+			"Computer Science Enthusiast",
+			"Chess Addict",
+			"Spiritual Seeker"
+		]
+	}
+}

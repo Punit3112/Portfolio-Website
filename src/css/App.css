@@ -1,0 +1,67 @@
+/* General Styling */
+.w-100 {
+    width: 100%;
+}
+.section-header {
+    --underline-offset: 0.3ch;
+
+    text-decoration: underline;
+    text-decoration-color: var(--bg-secondary);
+    text-decoration-thickness: 0.25ch;
+    text-underline-offset: var(--underline-offset);
+    text-indent: 0.5rem;
+}
+.text-section p {
+    text-indent: 2rem;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+.text-center {
+    text-align: center;
+}
+.align-center {
+    align-self: center;
+}
+.break-word {
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+.text-link {
+    text-underline-offset: 0.25ch;
+    color: var(--fg-tertiary);
+    transition: filter 0.4s;
+}
+.text-link:hover {
+    filter: opacity(70%);
+}
+.text-link:active {
+    transition: filter 0.2s;
+    filter: opacity(40%);
+}
+
+.back-to-link {
+    color: var(--fg-varient);
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.back-to-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--fg-tertiary);
+    transition: width 0.25s ease-out;
+}
+.back-to-link:hover::before {
+    width: 100%;
+}
+
+/* Resize main element */
+@media only screen and (max-width: calc(600px + 4ch)) {
+    main {
+        width: calc(100% - 2ch) !important; 
+    }
+}

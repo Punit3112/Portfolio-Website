@@ -1,0 +1,70 @@
+.icon {
+    width: 80%;
+}
+.card-container-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 1ch 0.75ch;
+}
+.skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5ch 0;
+    width: calc(calc(100% / 6) - calc(0.75ch * 5 / 6));
+    gap: 1ch;
+    background: var(--bg-secondary);
+    border-radius: 10px;
+    cursor: default;
+
+    transition: transform 0.25s;
+    transition-timing-function: ease-out;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3ch 0.8ch;
+    flex-wrap: wrap;
+}
+.tag-button {
+    padding: 0.8ch 1ch;
+    min-width: 5ch;
+    background: var(--bg-secondary);
+    color: var(--fg-secondary);
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: filter 0.3s;
+}
+.tag-button[data-active="true"] {
+    border: 1px solid var(--fg-varient);
+}
+.tag-button:hover {
+    cursor: pointer;
+    filter: brightness(125%);
+}
+
+/* Adjust number of cards per row in card containers */
+@media only screen and (max-width: 600px) {
+    .skill-card {
+        width: calc(20% - calc(0.75ch * 4 / 5));
+    }
+}
+@media only screen and (max-width: 490px) {
+    .skill-card {
+        width: calc(25% - calc(0.75ch * 3 / 4));
+    }
+}
+@media only screen and (max-width: 380px) {
+    .skill-card {
+        width: calc(calc(100% / 3) - calc(0.75ch * 2 / 3));
+    }
+}
