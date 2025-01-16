@@ -12,7 +12,7 @@ function Footer() {
 				Created by Punit Tripathi with <i className="fa-brands fa-react"></i>{" "}
 				and <i className="fa-brands fa-node-js"></i> - View&nbsp;
 				<a
-					href="https://github.com/Columbium41/Personal-Website"
+					href="https://github.com/Punit3112/Portfolio-Website"
 					target="_blank"
 					className="text-link"
 				>
