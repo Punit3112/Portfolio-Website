@@ -135,7 +135,7 @@ function Navbar({ isDarkTheme, setIsDarkTheme }) {
 								Projects
 							</Link>
 							<a
-								href="/data/CharleyLiu-Resume.pdf"
+								href="/data/Resume-2025.pdf"
 								className="navbar-text-link"
 								target="_blank"
 							>
